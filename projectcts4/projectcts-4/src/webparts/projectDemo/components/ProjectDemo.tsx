@@ -124,7 +124,7 @@ private async addItem():Promise<void>{
     OrderTitle:this.state.OrderTitle+1
   }
   );
-  alert("You have successfully submitted");}).catch((err) => {  
+  alert("You have successfully submitted the order");}).catch((err) => {  
     console.log(err);  
 });    
 
