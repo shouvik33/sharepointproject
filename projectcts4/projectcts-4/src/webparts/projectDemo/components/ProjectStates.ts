@@ -19,4 +19,6 @@ export interface ProjectStates{
     CustItems:any;
     ProdItems:any;
     ConvertDate: string;
+    modifyIDs:any;
+    modifiedID:number;
 }
